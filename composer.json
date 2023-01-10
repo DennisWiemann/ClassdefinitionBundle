@@ -1,0 +1,22 @@
+{
+    "name": "denniswiemann/classdefinitionbundle",
+    "description": "a bundle for classdefinitions",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^6.2"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DennisWiemann\\ClassdefinitionBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dennis Wiemann",
+            "email": "de95wi@googlemail.com"
+        }
+    ]
+}
