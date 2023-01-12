@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1753de81-74b3-48b2-bdb5-e8c2ea06a7e3" name="Changes" comment="" />
+    <list default="true" id="1753de81-74b3-48b2-bdb5-e8c2ea06a7e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Command/ModelGeneratorCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/ClassdefinitionExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/views/model.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/ModelGeneratorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassdefinitionBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassdefinitionBundle.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +58,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
     </include_path>
   </component>
   <component name="ProjectId" id="2K99KaQf2e6BFUiVPG19wMYC70g" />
@@ -65,13 +81,16 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php.composer",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Resources" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673375868996</updated>
-      <workItem from="1673375870365" duration="741000" />
+      <workItem from="1673375870365" duration="8720000" />
     </task>
     <servers />
   </component>

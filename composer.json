@@ -3,8 +3,10 @@
     "description": "a bundle for classdefinitions",
     "type": "symfony-bundle",
     "require": {
-        "php": ">=7.4",
-        "symfony/framework-bundle": "^6.2"
+        "php": ">=8.0",
+        "symfony/framework-bundle": "^6.2",
+        "symfony/console": "^6.2",
+        "twig/twig": "^2.0"
     },
     "version": "1.0.0",
     "license": "MIT",
