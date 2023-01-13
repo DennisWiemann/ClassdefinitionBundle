@@ -1,8 +1,8 @@
 <?php
 
-namespace DennisWiemann\ClassdefinitionBundle\Command;
+namespace Classdefinition\Command;
 
-use DennisWiemann\ClassdefinitionBundle\Service\ModelGeneratorService;
+use Classdefinition\Service\ModelGeneratorService;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -85,9 +85,9 @@ class ModelGeneratorCommand extends Command
             ]
 
         ];
-        $this->twig->render("model.php.twig",[
+        dump($this->twig->render("/vendor/denniswiemann/classdefinitionbundle/src/Resources/views/model.php.twig",[
             "namespace" => "abc"
-        ]);
+        ]));
         $this->modelGeneratorService->generate($test);
         return Command::SUCCESS;
     }

@@ -1,5 +1,5 @@
 {
-    "name": "denniswiemann/classdefinitionbundle",
+    "name": "denniswiemann/classdefinition-bundle",
     "description": "a bundle for classdefinitions",
     "type": "symfony-bundle",
     "require": {
@@ -13,7 +13,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DennisWiemann\\ClassdefinitionBundle\\": "src/"
+            "Classdefinition\\": "src/"
         }
     },
     "authors": [

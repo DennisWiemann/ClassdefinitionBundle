@@ -15,3 +15,6 @@ services:
 
   # order is important in this file because service definitions
   # always *replace* previous ones; add your own service configuration below
+#twig:
+#  paths:
+#    '%kernel.project_dir%/vendor/denniswiemann/classdefinitionbundle/src/Resources/views': classdefinitionbundle

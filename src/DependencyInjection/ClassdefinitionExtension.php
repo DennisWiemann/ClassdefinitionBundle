@@ -9,11 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace DennisWiemann\ClassdefinitionBundle\DependencyInjection;
+namespace Classdefinition\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
@@ -31,6 +30,6 @@ class ClassdefinitionExtension extends Extension
     {
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yaml');
-       // $loader->load('packages/twig.yaml');
+      //  $loader->load('packages/twig.yaml');
     }
 }

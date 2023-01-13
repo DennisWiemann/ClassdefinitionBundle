@@ -1,6 +1,6 @@
 <?php
 
-namespace DennisWiemann\ClassdefinitionBundle\Service;
+namespace Classdefinition\Service;
 
 
 

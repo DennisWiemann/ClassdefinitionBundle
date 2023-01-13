@@ -1,6 +1,6 @@
 <?php
 
-namespace DennisWiemann\ClassdefinitionBundle;
+namespace Classdefinition;
 
 use DennisWiemann\ClassdefinitionBundle\DependencyInjection\ClassdefinitionExtension;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
