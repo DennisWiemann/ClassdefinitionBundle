@@ -6,7 +6,8 @@
         "php": ">=8.0",
         "symfony/framework-bundle": "^6.2",
         "symfony/console": "^6.2",
-        "twig/twig": "^2.0"
+        "twig/twig": "^3.0",
+        "symfony/twig-bundle": "^6.2"
     },
     "version": "1.0.0",
     "license": "MIT",

@@ -8,7 +8,7 @@ use Twig\Environment;
 
 class ModelGeneratorService
 {
-public function __construct(protected Environment $twig)
+public function __construct()
 {
 }
 
@@ -19,7 +19,6 @@ var_dump($this->writePHPFile($classdefinition));
     }
 
     protected function writePHPFile(array $classdefinition): string{
-    return $this->twig->render("model.php.twig",["namespace" => "abc"]);
 
 
 return "";

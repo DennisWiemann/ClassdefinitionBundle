@@ -31,5 +31,6 @@ class ClassdefinitionExtension extends Extension
     {
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yaml');
+       // $loader->load('packages/twig.yaml');
     }
 }
