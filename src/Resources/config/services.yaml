@@ -7,10 +7,10 @@ services:
 
   # makes classes in src/ available to be used as services
   # this creates a service per class whose id is the fully-qualified class
-  DennisWiemann\Services\ModelGeneratorService:
+  Classdefinition\Services\ModelGeneratorService:
 
-  DennisWiemann\ClassdefinitionBundle\Command\ModelGeneratorCommand:
-  DennisWiemann\ClassdefinitionBundle\:
+  Classdefinition\Command\ModelGeneratorCommand:
+  Classdefinition\:
     resource: '../../../src/'
 
   # order is important in this file because service definitions
